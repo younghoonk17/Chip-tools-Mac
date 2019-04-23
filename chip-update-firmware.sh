@@ -204,7 +204,7 @@ dl_probe || (
   echo -e "\tTROUBLESHOOTING:\n"
   echo -e "\tIs the FEL pin connected to GND?"
   echo -e "\tHave you tried turning it off and turning it on again?"
-  echo -e "\tDid you run the setup script in CHIP-SDK?"
+  echo -e "\tDid you run the setup script?"
   echo -e "\tDownload could be corrupt, it can be re-downloaded by adding the '-f' flag."
   echo -e "\n\n"
   exit 1
@@ -217,7 +217,7 @@ flash_images && ready_to_roll || (
   echo -e "\tTROUBLESHOOTING:\n"
   echo -e "\tIs the FEL pin connected to GND?"
   echo -e "\tHave you tried turning it off and turning it on again?"
-  echo -e "\tDid you run the setup script in CHIP-SDK?"
+  echo -e "\tDid you run the setup script?"
   echo -e "\tDownload could be corrupt, it can be re-downloaded by adding the '-f' flag."
   echo -e "\n\n"
 )
